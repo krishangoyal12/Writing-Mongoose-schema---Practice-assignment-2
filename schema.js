@@ -26,6 +26,10 @@ const blogSchema = new Schema({
         required: true,
         minlength: 50
     },
+    category: {
+        type: String,
+        default: "General"
+    },
     author:{
         type: String,
     },
