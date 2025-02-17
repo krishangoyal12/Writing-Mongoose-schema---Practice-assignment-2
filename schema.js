@@ -41,7 +41,7 @@ const blogSchema = new Schema({
 },
 
 {
-    timestamps: { createdAt: 'createdAt', updatedAt: 'updatedAt' } // Automatically handle timestamps
+    timestamps: { createdAt: 'createdAt', updatedAt: 'updatedAt' }
 }
 
 )
