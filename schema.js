@@ -48,4 +48,6 @@ const blogSchema = new Schema({
 
 const blogModel = model("Blog", blogSchema)
 
-module.exports = blogModel
+const commentModel = model('comment', commentSchema)
+
+module.exports = {commentModel, blogModel}
